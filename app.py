@@ -62,7 +62,7 @@ def result():
               <a href="/page">Start over</a>
               </body>
               """
-    return results
+    return "NeuralNetwork model predict outcome of " + outcome + "having seroma."
 
 if __name__ == '__main__':
     """Connect to Server"""
