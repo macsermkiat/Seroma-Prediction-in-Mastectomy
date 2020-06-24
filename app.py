@@ -55,7 +55,12 @@ def result():
     else:
         outcome = "not "
     
-    return "NeuralNetwork model predict outcome of " + outcome + "having seroma." 
+    return """
+           <body> 
+           <h1>"NeuralNetwork model predict outcome of " + outcome + "having seroma."<h1>
+           <a href="/page">Start over</a>
+           </body>
+           """
 
    
 
