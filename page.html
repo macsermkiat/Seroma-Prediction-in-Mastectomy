@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title> Seroma Prediction </title>
+  </head>
+   <body>
+   <h3> Patient Profile <h3>
+   <h5>
+      <form action = "http://localhost:4000/result" method = "POST">
+
+        <p>BMI</p>
+				<input type="number" name="bmi" min="0" step="any" value="bmi"> BMI
+        <p>Hypertension</p> 
+				<input type="radio" name="ht" value=0> Normal
+				<input type="radio" name="ht" value=1> Hypertension
+		<p>DM</p>
+				<input type="radio" name="dm" value=0> Normal
+				<input type="radio" name="dm" value=1> DM
+        <p>Neoadjuvant</p>
+				<input type="radio" name="neo" value=0> No
+				<input type="radio" name="neo" value=1> Yes        
+		<p>Operation</p>
+				<input type="radio" name="op" value=1> Total mastectomy with sentinel node biopsy
+				<input type="radio" name="op" value=2> Total mastectomy with axillary node dissection/ MRM
+
+        <p>Pathological grade</p>
+				<input type="radio" name="patho" value=1> Invasive ductal carcinoma
+				<input type="radio" name="patho" value=2> Invasive lobular carcinoma
+				<input type="radio" name="patho" value=3> Ductal carcinoma in situ
+				<input type="radio" name="patho" value=4> Others
+
+
+		<p><input type = "submit" value = "submit" /></p>
+      </form>
+	<h5>
+   </body>
+</html>
