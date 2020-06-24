@@ -62,7 +62,7 @@ def result():
               <a href="/page">Start over</a>
               </body>
               """
-    return """<body>Hi</body>
+    return """<body>Hi</body>"""
 
 if __name__ == '__main__':
     """Connect to Server"""
