@@ -55,13 +55,13 @@ def result():
     else:
         outcome = "not "
     
-    result = results = """
+    results = """
               <body>
               <h2> Seroma prediction <h2>
               <h3>"NeuralNetwork model predict outcome of " + outcome + "having seroma."</h3>
               <a href="/page">Start over</a>
               </body>
-    
+              """
     return results
 
 
